@@ -72,7 +72,7 @@ while (bool1)
                          animal = petShop.ReturnByNickNameDog(name);
 
                     }
-                    if (animal.Name != "")
+                    if (animal.Name != null)
                     {
                         bool bool2 = true;
                         while (bool2)
@@ -174,7 +174,7 @@ while (bool1)
                         animal = petShop.ReturnByNickNameCat(name);
 
                     }
-                    if (animal.Name != "")
+                    if (animal.Name != null)
                     {
                         bool bool2 = true;
                         while (bool2)
@@ -276,7 +276,7 @@ while (bool1)
                         animal = petShop.ReturnByNickNameBird(name);
 
                     }
-                    if (animal.Name != "")
+                    if (animal.Name != null)
                     {
                         bool bool2 = true;
                         while (bool2)
@@ -378,7 +378,7 @@ while (bool1)
                         animal = petShop.ReturnByNickNameFish(name);
 
                     }
-                    if (animal.Name != "")
+                    if (animal.Name != null)
                     {
                         bool bool2 = true;
                         while (bool2)
